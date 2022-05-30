@@ -8,23 +8,24 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: drummondlab/drummondlab.github.io
+repository: aru-spatial-intelligence-lab/aru-spatial-intelligence-lab.github.io
+
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Drummond Lab
-tagline: Molecular basis of cellular sensing and responses
+title : ARU-Spatial Intelligence Lab
+tagline: Understnding robots and the space around them
 institution:
-  url: http://www.uchicago.edu
-  name: The University of Chicago
+  url: http://www.uct.ac.za
+  name: The University of Cape Town
 department:
-  url: http://bmb.uchospitals.edu
-  name: Biochemistry & Molecular Biology
+  url: http://www.ee.uct.ac.za
+  name: Electrical Engineering
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
+  name : P Amayo
+  email : paul.amayo@uct.ac.za
+  github : paul-amayo
   twitter : dallandrummond
 #  feedburner : feedname
 
@@ -36,7 +37,8 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drummondlab.org
+production_url : aru-spatial-intelligence-lab.github.io
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
