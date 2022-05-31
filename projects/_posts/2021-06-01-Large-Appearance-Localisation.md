@@ -4,7 +4,7 @@ title: "Large Appearance Localisation"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
-category: blog
+category: project
 published: true
 theme: lab
 tags: []
