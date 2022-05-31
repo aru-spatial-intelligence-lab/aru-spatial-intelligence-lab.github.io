@@ -12,7 +12,7 @@ CONFIG = {
   'post_ext' => "md",
   'papers' => File.join(SOURCE, "papers/_posts"),
   'paper_ext' => "md",
-  'protocols' => File.join(SOURCE, "protocols/_posts"),
+  'platforms' => File.join(SOURCE, "platforms/_posts"),
   'protocol_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -28,7 +28,7 @@ module JB
       :theme_packages => "_theme_packages",
       :posts => "_posts",
       :papers => "papers/_posts",
-      :protocols => "protocols/_posts"
+      :platforms => "platforms/_posts"
     }
     
     def self.base
@@ -126,10 +126,10 @@ end # task :paper
 
 
 # Usage: rake protocol title="Protocol Title" [date="2015-05-01"] [tags=[tag1,tag2]]
-desc "Begin a new protocol in #{CONFIG['protocols']}"
+desc "Begin a new platforms in #{CONFIG['platforms']}"
 task :protocol do
-  abort("rake aborted: '#{CONFIG['protocols']}' directory not found.") unless FileTest.directory?(CONFIG['protocols'])
-  title = ENV["title"] || "new-protocol"
+  abort("rake aborted: '#{CONFIG['platforms']}' directory not found.") unless FileTest.directory?(CONFIG['platforms'])
+  title = ENV["title"] || "new-platforms"
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
@@ -140,18 +140,18 @@ task :protocol do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filename = File.join(CONFIG['protocols'], "#{date}-#{slug}.#{CONFIG['protocol_ext']}")
+  filename = File.join(CONFIG['platforms'], "#{date}-#{slug}.#{CONFIG['protocol_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   
-  puts "Creating new protocol: #{filename}"
+  puts "Creating new platform: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: protocol"
+    post.puts "layout: platform"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: protocol"
+    post.puts "category: platform"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"

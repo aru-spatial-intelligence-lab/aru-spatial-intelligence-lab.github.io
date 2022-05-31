@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "What is Spatial Intelligence? Why do robots need it."
+title: "Sticking together to survive stress"
 description: ""
-author: "Paul Amayo"
-author_handle: paul
+author: "D. Allan Drummond"
+author_handle: dad
 category: blog
 published: true
 theme: lab
