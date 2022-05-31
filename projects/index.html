@@ -1,33 +1,76 @@
 ---
 layout: default
 title: "Research"
-description: "Research projects in the lab"
+description: "Research Investigation Areas"
 group: navigation
-navorder: 1
+navorder: 4
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div>
-{% for project in site.categories.projects %}
-<div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
-    </div>
-  </div>
-  -->
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
-  </div>
+
+
+<div class="pager">
+  
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a class="prev" href="/{{ page.category }}/">
+      <i class="fa fa-chevron-left fa-lg"></i>
+    </a>
+    {% else %}
+    <a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
+      <i class="fa fa-chevron-left fa-lg"></i>
+    </a>
+    {% endif %}     
+  {% endif %}  
+  
+  {% if paginator.next_page %}  
+  <a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
+    <i class="fa fa-chevron-right fa-lg"></i>
+  </a>  
+  {% endif %}   
+    
 </div>
+
+{% for post in site.categories.projects %}
+
+  {% for member in site.categories.team %}
+    {% if member.handle == project.author_handle %}
+      {% assign author = member %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="bigspacer"></div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="head">
+        <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+      </div>
+      <div class="smallnote">
+        {{ project.date | date_to_string }}
+        {% if author %}
+        by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
+        {% endif %}       
+      </div>  
+    </div>
+    <div class="col-md-8">    
+      <div style="height:5px;"></div>     
+      {% if project.image %}
+      <a href="{{ project.url }}"><img class="offset" src="{{ project.image }}"></a>
+      {% endif %}
+      <div class="project">
+        {{ project.content }}
+      </div>
+    </div>      
+    <div class="col-md-1"></div>
+  </div>    
+
 {% endfor %}
 
-<div class="bigspacer"></div>
+<div class="bigspacer"></div> 
+<div class="row">
+  <div class="col-md-12 text-center">
+    <a class="off" href="/{{ page.category }}/archive/">
+      <div class="smallhead">Archive</div>
+      <i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
+    </a>
+  </div>
+</div>
