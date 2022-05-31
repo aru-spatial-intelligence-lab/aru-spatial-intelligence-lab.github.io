@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lightweight Perception"
+title: "Large Appearance Localisation"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
@@ -11,4 +11,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-Lightweight Perception
+Large Appearance Localisation
+
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lightweight Perception"
+title: "Marine Mapping"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
@@ -11,4 +11,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-Lightweight Perception
+Marine Mapping
