@@ -33,11 +33,11 @@ Here you'll find the platforms that we utilise for our research
 
 <hr>
 
-{% for protocol in site.categories.protocol %}
+{% for platform in site.categories.platform %}
 
     {% assign author = 0 %}
     {% for member in site.categories.team %}
-			{% if member.title == protocol.author %}
+			{% if member.title == platform.author %}
 				{% assign author = member %}
 			{% endif %}
 		{% endfor %}
@@ -46,18 +46,18 @@ Here you'll find the platforms that we utilise for our research
 		<div class="row">
 			<div class="col-md-12">
 				<div class="smallhead">
-					<a href="{{ protocol.url }}" class="off">{{ protocol.title }}</a>
+					<a href="{{ platform.url }}" class="off">{{ platform.title }}</a>
 				</div>
 				<div class="smallnote">
-					{%comment%}{{ protocol.date | date_to_string }}{% endcomment %}
+					{%comment%}{{ platform.date | date_to_string }}{% endcomment %}
 					{% if author != 0 %}
 					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
 					{% endif %}
 				</div>
 				<div class="subtle smallnote">
 					tags:
-					{% for tag in protocol.tags %}
-						{{ tag }}{% if tag != protocol.tags.last %},{% endif %}
+					{% for tag in platform.tags %}
+						{{ tag }}{% if tag != platform.tags.last %},{% endif %}
 					{% endfor %}
 				</div>
 
