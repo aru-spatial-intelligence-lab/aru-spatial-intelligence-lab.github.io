@@ -10,4 +10,5 @@ github:
 scholar: 
 image: /assets/images/team/jamie-scott.png
 alum: false
+---
 David is a current MSc student
