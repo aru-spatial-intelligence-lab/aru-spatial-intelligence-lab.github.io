@@ -2,8 +2,8 @@
 layout: post
 title: "Large Appearance Localisation"
 description: ""
-author: "D. Allan Drummond"
-author_handle: dad
+author: "Paul Amayo"
+author_handle: paul
 category: project
 published: true
 theme: lab
