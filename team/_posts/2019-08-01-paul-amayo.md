@@ -2,10 +2,10 @@
 layout: member
 title: "Paul Amayo"
 position: Principal investigator
-handle: paul
-nickname: paul
+handle: Paul
+nickname: Paul
 email: paul.amayo@uct.ac.za
-github: dad
+github: paul-amayo
 scholar: -YZ5mIIAAAAJ
 image: /assets/images/team/d-allan-drummond.png
 cv: /assets/pdfs/drummond-cv.pdf
