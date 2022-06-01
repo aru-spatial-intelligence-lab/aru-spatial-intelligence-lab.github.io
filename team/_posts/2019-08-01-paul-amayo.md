@@ -2,6 +2,8 @@
 layout: member
 title: "Paul Amayo"
 position: Principal investigator
+handle: paul
+nickname: paul
 email: paul.amayo@uct.ac.za
 github: dad
 scholar: -YZ5mIIAAAAJ

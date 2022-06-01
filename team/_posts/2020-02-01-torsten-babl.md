@@ -1,9 +1,9 @@
 ---
 layout: member
-title: "Torsten Babl"
+title: "Micheal Katsoulis"
 position: Msc Student
-handle: torsten
-nickname: torsten
+handle: micheal
+nickname: micheal
 email: 
 twitter: 
 github: 
@@ -11,5 +11,5 @@ scholar:
 image: /assets/images/team/kerry-samerotte.png
 alum: false
 ---
-Torsten is a current Msc student.
+Micheal is a current Msc student.
 
