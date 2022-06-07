@@ -13,9 +13,23 @@ tags: []
 
 
 
-### A bit of background
+# From SLAM to Spatial Intelligence
 
 Spatial Intelligence.
+
+## Shape & Structure
+
+## Topology
+
+## Scene Graphs
+
+## Network Represenatations
+
+## Space in the Subsumption Architecture
+
+
+
+
 
 
 
