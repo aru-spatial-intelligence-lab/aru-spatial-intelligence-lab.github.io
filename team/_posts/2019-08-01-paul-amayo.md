@@ -6,12 +6,10 @@ handle: Paul
 nickname: Paul
 email: paul.amayo@uct.ac.za
 github: paul-amayo
-scholar: -YZ5mIIAAAAJ
-image: /assets/images/team/d-allan-drummond.png
-cv: /assets/pdfs/drummond-cv.pdf
+image: /assets/images/team/Amayo-Paul.jpg
 alum: false
 ---
-Paul is a Lecturer at the [University of Cape Town] in the Department of [Electrical engineering], and a founding memebr of the [African Robotics Unit], [Section of Genetic Medicine]. He joined the UCT faculty in 2019.
+Paul is a Lecturer at the [University of Cape Town] in the Department of [Electrical engineering], and a founding memebr of the [African Robotics Unit]. He joined the UCT faculty in 2019.
 
 Prior to returning to Cape Town, Paul received his Ph.D. in Engineering Science from [Oxford University][Ox] under the guidance of Prof. Paul Newman.
 
