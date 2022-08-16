@@ -2,7 +2,7 @@
 layout: paper
 title: "Geometric Multi-Model Fitting with a Convex Relaxation Algorithm"
 year: "2018"
-shortref: "AmayoCVPR"
+shortref: "CVPR 2018"
 nickname: smoothing-2022
 journal: "CVPR"
 volume: 3

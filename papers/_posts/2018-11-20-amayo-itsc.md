@@ -2,7 +2,7 @@
 layout: paper
 title: "Semantic classification of road markings from geometric primitives"
 year: "2018"
-shortref: "Amayo 2018"
+shortref: "ITSC 2018"
 nickname: smoothing-2022
 journal: "ITSC"
 volume: 

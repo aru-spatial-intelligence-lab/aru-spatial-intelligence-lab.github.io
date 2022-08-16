@@ -2,7 +2,7 @@
 layout: paper
 title: "Fast Global Labelling For Depth-Map Improvement Via Architectural Priors"
 year: "2018"
-shortref: "Amayo 2018"
+shortref: "ICRA 2018"
 nickname: depth-map-2018
 journal: "ICRA"
 volume: 3

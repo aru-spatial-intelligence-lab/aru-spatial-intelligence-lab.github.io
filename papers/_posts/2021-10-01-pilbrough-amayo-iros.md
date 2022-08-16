@@ -2,7 +2,7 @@
 layout: paper
 title: "What’s Best for My Mesh? Convex or Non-Convex Regularisation for Mesh Optimisation."
 year: "2021"
-shortref: "Pilbrough and Amayo 2021"
+shortref: "IROS 2021"
 nickname: smoothing-2022
 journal: "IROS"
 volume: 3

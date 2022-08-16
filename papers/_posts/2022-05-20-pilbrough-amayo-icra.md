@@ -2,7 +2,7 @@
 layout: paper
 title: "Smoothing Away From The Edge For Mesh Estimation in Urban Outdoor Environments."
 year: "2022"
-shortref: "Pilbrough and Amayo 2022"
+shortref: "ICRA 2022"
 nickname: smoothing-2022
 journal: "ICRA"
 volume: 3
