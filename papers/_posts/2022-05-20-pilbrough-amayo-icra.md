@@ -5,19 +5,19 @@ year: "2022"
 shortref: "ICRA 2022"
 nickname: smoothing-2022
 journal: "ICRA"
-volume: 3
+volume: 
 issue: 
 pages: 
-authors: "Yoo H, Drummond DA"
+authors: "Jason Pilbrough, Paul Amayo"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://star-protocols.cell.com/protocols/1656
-pdflink: https://hivebench-star-protocols.s3.amazonaws.com/protocols/1656.pdf
+fulltext:
+pdflink: 
 github: 
 pmid: 
 pmcid: 
 f1000: 
-doi: "10.1016/j.xpro.2022.101409"
+doi: 
 dryad_doi:
 figshare_doi: 
 altmetric_id: 

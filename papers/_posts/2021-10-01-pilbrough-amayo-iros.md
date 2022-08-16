@@ -8,7 +8,7 @@ journal: "IROS"
 volume: 3
 issue: 
 pages: 
-authors: 
+authors: "Jason Pilbrough, Paul Amayo"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext:
