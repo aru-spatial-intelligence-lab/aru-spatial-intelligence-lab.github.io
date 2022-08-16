@@ -9,7 +9,7 @@ volume: 3
 issue: 
 pages: 
 authors: "Paul Amayo, Pedro Piniés, Lina M Paz, Paul Newman"
-image: 
+image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: 
 pdflink: 

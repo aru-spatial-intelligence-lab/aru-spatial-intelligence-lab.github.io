@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Sam Ball, Paul Amayo"
-image: 
+image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext:
 pdflink: 

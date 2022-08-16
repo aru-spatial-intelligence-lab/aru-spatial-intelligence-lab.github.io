@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Paul Amayo, Tom Bruls, Paul Newman"
-image:
+image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext:
 pdflink: 

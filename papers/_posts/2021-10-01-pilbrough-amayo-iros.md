@@ -9,7 +9,7 @@ volume: 3
 issue: 
 pages: 
 authors: 
-image: 
+image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext:
 pdflink: 

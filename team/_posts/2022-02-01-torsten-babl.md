@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/Babl-Torsten.png
+image: /assets/images/team/Babl-Torsten.jpeg
 alum: false
 ---
 Torsten is a current Msc student. He joined the lab in 2022 and is currecnly invertigating low-cost geo-location by combining visual and inertial data.

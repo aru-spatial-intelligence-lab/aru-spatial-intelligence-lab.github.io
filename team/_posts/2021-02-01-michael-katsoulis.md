@@ -1,9 +1,9 @@
 ---
 layout: member
-title: "Torsten Babl"
+title: "Micheal Katsoulis"
 position: Msc Student
-handle: torsten
-nickname: torsten
+handle: mike
+nickname: mike
 email: 
 twitter: 
 github: 

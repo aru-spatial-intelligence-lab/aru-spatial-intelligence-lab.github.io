@@ -1,9 +1,9 @@
 ---
 layout: member
-title: "Micheal Katsoulis"
-position: Msc Student
-handle: micheal
-nickname: micheal
+title: "Boitumelo Dikoko"
+position: PhD Student
+handle: boitumelo
+nickname: boitumelo
 email: 
 twitter: 
 github: 
